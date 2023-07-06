@@ -1,23 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SubAComponent } from './sub-a/sub-a.component';
+import { APP_BASE_HREF } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
   {
-    path: 'sub-a',
-    children: [
-      {
-        path: '**',
-        component: SubAComponent,
-      },
-    ],
+    path: '',
+    component: HomeComponent
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
+ 
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

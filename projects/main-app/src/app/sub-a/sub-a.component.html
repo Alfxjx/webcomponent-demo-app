@@ -1,0 +1,14 @@
+<div>
+  <micro-app
+    name='sub-app-a'
+    [attr.url]='url'
+    baseroute='/main-app/sub-a'
+    [data]='microAppData'
+    (created)='handleCreate()'
+    (beforemount)='handleBeforeMount()'
+    (mounted)='handleMount()'
+    (unmount)='handleUnmount()'
+    (error)='handleError()'
+    (datachange)='handleDataChange($event)'
+  ></micro-app>
+</div>

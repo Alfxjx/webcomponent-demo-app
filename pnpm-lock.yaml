@@ -12,6 +12,7 @@ specifiers:
   '@angular/platform-browser': ^16.1.0
   '@angular/platform-browser-dynamic': ^16.1.0
   '@angular/router': ^16.1.0
+  '@micro-zoe/micro-app': ^0.8.11
   '@types/jasmine': ~4.3.0
   jasmine-core: ~4.6.0
   karma: ~6.4.0
@@ -33,6 +34,7 @@ dependencies:
   '@angular/platform-browser': 16.1.3_4u54pqy3tkgp7wlwweasg5ia4a
   '@angular/platform-browser-dynamic': 16.1.3_gbongle3z7bi72tk2uroahi52y
   '@angular/router': 16.1.3_l7xusbu3rs45rpse6u26zahojy
+  '@micro-zoe/micro-app': 0.8.11
   rxjs: 7.8.1
   tslib: 2.6.0
   zone.js: 0.13.1
@@ -1692,8 +1694,9 @@ packages:
     dev: true
 
   /@babel/traverse/7.22.7:
-    resolution: {integrity: sha512-vQn61YQzktf1wFNzCka2dynnnbmBpUDeUCds3Y+FBHZpcVxpBq0XscQGDDVN7sV2Vf1pZDY1HmPR3U/5t7VfMQ==}
+    resolution: {integrity: sha512-53CijMvKlLIDlOTrdWiHileRddlIiwUIyCKqYa7lYnnPldXCG5dUSN38uT0cA6i7rHWNKJLH0VU/Kxdr1GzB3w==, tarball: '@babel/traverse/-/traverse-7.22.6.tgz'}
     engines: {node: '>=6.9.0'}
+    deprecated: '[WARNING] Use 7.22.6 instead of 7.22.7, reason: https://github.com/babel/babel/issues/15752'
     dependencies:
       '@babel/code-frame': 7.22.5
       '@babel/generator': 7.22.7
@@ -1998,6 +2001,10 @@ packages:
   /@leichtgewicht/ip-codec/2.0.4:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
+
+  /@micro-zoe/micro-app/0.8.11:
+    resolution: {integrity: sha512-4NapVlAomUagOcpHQlcPgTHlVZgeb/OSSuS6lQWV9uOEhsKqbE6j3KBWb3RPN2olfvrbFXGaUKyA0pup92ja9g==}
+    dev: false
 
   /@ngtools/webpack/16.1.3_bs5ykhu4tt35cmuht6gnnnds2i:
     resolution: {integrity: sha512-YTL1RzP7ErJqskx+ZwdC/nWsOSBfC4yYWmMyWL2J0d+oJ3N2XIzrKVoDcZ4IVzv3Du+3zoGp0ups/wWXvfzM/Q==}
